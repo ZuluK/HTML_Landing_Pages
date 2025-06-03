@@ -119,6 +119,11 @@
       color: var(--text);
       transition: background-color 0.3s;
     }
+
+    .header-content {
+      padding-top: 40px; /* Adds space between the toggle button and the content */
+      text-align: center; /* Ensures the content remains centered */
+    }
   </style>
 </head>
 <body>
@@ -127,8 +132,10 @@
     <div class="toggle-container">
       <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
     </div>
-    <h1>Elevate Your Potential</h1>
-    <p>Join thousands of professionals leveling up their careers through our platform. Powerful tools. Instant impact.</p>
+    <div class="header-content">
+      <h1>Elevate Your Potential</h1>
+      <p>Join thousands of professionals leveling up their careers through our platform. Powerful tools. Instant impact.</p>
+    </div>
     <button class="cta-button">Start Free Trial</button>
   </header>
 
